@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tairu Maps</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #006A43;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 48px 40px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #006A43;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #6B7280;
+            font-size: 1rem;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+        .badge {
+            display: inline-block;
+            background: #F0FFF6;
+            color: #006A43;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            border-radius: 99px;
+            padding: 4px 14px;
+            margin-bottom: 24px;
+        }
+        .store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #006A43;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 14px 28px;
+            border-radius: 10px;
+            transition: background 0.2s;
+            margin-bottom: 32px;
+        }
+        .store-btn:hover { background: #005235; }
+        .links {
+            border-top: 1px solid #E5E7EB;
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+        .links a {
+            color: #6B7280;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+        .links a:hover { color: #006A43; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">Gestão de Operações</div>
+        <h1>Tairu Maps</h1>
+        <p class="subtitle">Plataforma geoespacial para coordenação de operações de segurança pública.</p>
+
+        <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hsmartin.tairumaps">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.18 23.76c.33.19.7.24 1.06.15l11.6-11.6L12.55 9l-9.37 14.76zM20.5 10.6l-2.85-1.63-3.43 3.43 3.43 3.44 2.87-1.64A1.97 1.97 0 0 0 20.5 10.6zM2.08 1.1A1.96 1.96 0 0 0 1.75 2v20a1.96 1.96 0 0 0 .33.9L2.18 23 14 11.18v-.28L2.18 1.1l-.1.0zm9.52 9.52l-9.2-9.2c.08-.04.17-.05.26-.02l12.12 6.93-3.18 3.18z"/>
+            </svg>
+            Google Play
+        </a>
+
+        <div class="links">
+            <a href="/privacy.html">Política de Privacidade</a>
+            <a href="mailto:daniel.hulshof@gmail.com">Contato</a>
+        </div>
+    </div>
+</body>
+</html>
